@@ -1,46 +1,435 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coder portfopio</title>
+
+    <title>Tinku Kashyap | Frontend Developer</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
+
+    <!-- Navbar -->
     <header>
-    <nav>
-        <h1 class="logo">Tinku kashyap</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>   
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Tinku<span>.</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>   
-                <li><a href="#skills">Skills</a></li>   
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-    </nav>
+
+            <a href="#contact" class="nav-btn">Hire Me</a>
+
+            <div class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
     </header>
-    <section id="home">
-        <h2>Hi I am <span>Tinku kashyap</span></h2>
-        <h2 id="typing">tinku kashyap</h2>
-        <a href="#contact" class="btn">contact me</a>
-        <img src="image.png" alt="Image">
+
+
+    <!-- Home Section -->
+    <section class="home container" id="home">
+
+        <div class="home-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Tinku Kashyap</span></h1>
+
+            <h2>I'm a <span class="typing"></span></h2>
+
+            <p class="home-description">
+                A passionate B.Tech CSE student and aspiring
+                Frontend Developer. I love building modern,
+                responsive and user-friendly websites.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Work <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Codertinkukashyap"
+                   target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/tinku-kashyap-a92919380/"
+                   target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="home-image">
+            <div class="image-circle">
+                <i class="fas fa-code"></i>
+            </div>
+
+            <div class="floating-card card-one">
+                <i class="fab fa-html5"></i> HTML Developer
+            </div>
+
+            <div class="floating-card card-two">
+                <i class="fab fa-js"></i> JavaScript
+            </div>
+        </div>
+
     </section>
-    <section id="about" class="aos-init">
-        <h2>about me</h2>
-        <p>My self Tinku kashyap. I'm from kasganj uttar pradesh</p>
+
+
+    <!-- About Section -->
+    <section class="section container" id="about">
+
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-icon">
+                <i class="fas fa-user-astronaut"></i>
+            </div>
+
+            <div class="about-text">
+
+                <h3>I'm Tinku Kashyap</h3>
+
+                <p>
+                    I am currently pursuing B.Tech in Computer
+                    Science and Engineering from Invertis
+                    University, Bareilly.
+                </p>
+
+                <p>
+                    I have an interest in web development and
+                    software development. I enjoy creating
+                    attractive websites and learning new
+                    technologies.
+                </p>
+
+                <p>
+                    My goal is to become a skilled software
+                    developer and build useful real-world
+                    applications.
+                </p>
+
+                <div class="about-details">
+                    <div><strong>Name:</strong> Tinku Kashyap</div>
+                    <div><strong>Degree:</strong> B.Tech CSE</div>
+                    <div><strong>University:</strong> Invertis University</div>
+                    <div><strong>Role:</strong> Frontend Developer</div>
+                </div>
+
+            </div>
+
+        </div>
     </section>
-    <section id="education">
-        <h2>education</h2>
-        <p>currenntly I'm pursuing B.tech Computer science and engineering</p>
+
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p>MY TECHNICAL EXPERTISE</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fab fa-html5 html"></i>
+                    <h3>HTML5</h3>
+                    <p>Web Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt css"></i>
+                    <h3>CSS3</h3>
+                    <p>Web Styling</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-js js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-java java"></i>
+                    <h3>Java</h3>
+                    <p>Programming & DSA</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-code c"></i>
+                    <h3>C Programming</h3>
+                    <p>Programming Basics</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-github github"></i>
+                    <h3>GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+
+            </div>
+        </div>
     </section>
-    <section id="skills">
-        <h2>skills</h2>
-        <p>My skills are HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB</p>
+
+
+    <!-- Projects Section -->
+    <section class="section container" id="projects">
+
+        <div class="section-heading">
+            <p>WHAT I HAVE BUILT</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website to showcase
+                        my skills, projects and development journey.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/Codertinkukashyap"
+                       target="_blank" class="project-link">
+                        GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+
+                <div class="project-info">
+                    <h3>Tic Tac Toe</h3>
+
+                    <p>
+                        An interactive Tic Tac Toe game
+                        developed using HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/Codertinkukashyap"
+                       target="_blank" class="project-link">
+                        GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-money-bill-transfer"></i>
+                </div>
+
+                <div class="project-info">
+                    <h3>Currency Converter</h3>
+
+                    <p>
+                        A currency conversion application
+                        designed to convert between different currencies.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/Codertinkukashyap"
+                       target="_blank" class="project-link">
+                        GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </section>
-    <section id="contact">
-        <h2>contact me</h2>
-        <p>You can contact me via email at <a href="mailto:tinkukashyap@example.com">tinkukashyap@example.com</a></p>
+
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p>MY LEARNING JOURNEY</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <span class="education-label">Currently Pursuing</span>
+
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+
+                    <h4>Computer Science and Engineering</h4>
+
+                    <p>Invertis University, Bareilly</p>
+
+                </div>
+
+            </div>
+
+        </div>
     </section>
+
+
+    <!-- Contact Section -->
+    <section class="section container" id="contact">
+
+        <div class="section-heading">
+            <p>LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+
+                <h3>Let's Work Together!</h3>
+
+                <p>
+                    Have a project idea or an opportunity?
+                    Feel free to connect with me.
+                </p>
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>your-email@example.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>Codertinkukashyap</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Uttar Pradesh, India</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <form class="contact-form" id="contactForm">
+
+                <input type="text" id="name"
+                       placeholder="Your Name" required>
+
+                <input type="email" id="email"
+                       placeholder="Your Email" required>
+
+                <input type="text" id="subject"
+                       placeholder="Subject" required>
+
+                <textarea id="message"
+                          placeholder="Your Message"
+                          rows="5" required></textarea>
+
+                <button type="submit" class="btn primary-btn">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <h3>Tinku<span>.</span></h3>
+
+            <p>Designed & Developed by Tinku Kashyap</p>
+
+            <p class="copyright">
+                © <span id="year"></span> Tinku Kashyap.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
